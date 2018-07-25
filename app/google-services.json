@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "744149541325",
+    "firebase_url": "https://runningbuslocation.firebaseio.com",
+    "project_id": "runningbuslocation",
+    "storage_bucket": "runningbuslocation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744149541325:android:2df0fbbdb3cc7085",
+        "android_client_info": {
+          "package_name": "com.example.avinashucheniya.bustracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744149541325-ef5kag5ikoafdilf1f22dd7dg7br4lrm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.avinashucheniya.bustracking",
+            "certificate_hash": "0b1d0736d7c59d563985d4fc419dce18ccec30c4"
+          }
+        },
+        {
+          "client_id": "744149541325-7ajjhvn46dmeq551103cfrtc22burb4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn-RbYNZjFnpjJnt9wSRDmflanDaUdTaA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744149541325-7ajjhvn46dmeq551103cfrtc22burb4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

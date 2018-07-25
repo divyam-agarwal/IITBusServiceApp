@@ -1,0 +1,78 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suggested Bus Stop"
+            android:textColor="@color/white"
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="80dp"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="123dp"
+        android:text="Latitude :"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginStart="22dp"
+        android:layout_toEndOf="@+id/textView"
+        android:ems="10"
+        android:hint="Destination Latitude"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="39dp"
+        android:text="Longitude :"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignEnd="@+id/latitude"
+        android:ems="10"
+        android:hint="Destination Longitude"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/Btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/longitude"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="32dp"
+        android:text="search"
+        android:textColor="@color/gray"/>
+
+</RelativeLayout>
